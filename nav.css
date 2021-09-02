@@ -1,18 +1,68 @@
 /* eXeLearning Style Designer Compatible Style */
-body{padding:0;text-align:center}
-#content{width:100%;margin:0 auto;text-align:left;position:relative;border-style:solid;border-width:0}
-#main-wrapper{padding-bottom:1.5em;width:100%;*width:auto}
-/* * is for IE6 and IE7 */#main{padding:20px 40px 30px 320px;height:auto!important;height:200px;min-height:200px;*padding-left:0}
+body{
+	padding:0;
+	text-align:center;
+}
+#content{
+	width:100%;
+	margin:0 auto;
+	text-align:left;
+	position:relative;
+	border-style:solid;
+	border-width:0;}
+#main-wrapper{
+	padding-bottom:1.5em;
+	width:100%;
+	width:auto;
+}
+#main{
+	padding:20px 40px 30px 320px;
+	height:auto!important;
+	height:200px;
+	min-height:200px;
+	padding-left:0;
+}
 .no-nav #main-wrapper{width:100%}
 .no-nav #main{padding:20px 20px 0 20px}
-#header,#emptyHeader{border-top-width:0;border-right-width:0;border-left-width:0}
-#headerContent{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;min-height:1.1em}
-#nodeDecoration{background:none;padding:0;border:none;margin:20px 0;height:auto;min-height:0}
-#nodeTitle{font-weight:300}
-.iDevice_wrapper{margin-top:-10px}
-/* Menú */#siteNav{width:280px;float:left;margin-right:40px}
-#siteNav ul,#siteNav li{margin:0;padding:0;list-style:none}
-#siteNav .other-section{display:none}
+
+#header,#emptyHeader{
+	border-top-width:0;
+	border-right-width:0;
+	border-left-width:0;
+}
+#headerContent{
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	min-height:1.1em;
+}
+#nodeDecoration{
+	background:none;
+	padding:0;
+	border:none;
+	margin:20px 0;
+	height:auto;
+	min-height:0;
+}
+#nodeTitle{
+	font-weight:300;
+}
+.iDevice_wrapper{
+	margin-top:-10px;
+}
+#siteNav{
+	width:280px;
+	float:left;
+	margin-right:40px;
+}
+#siteNav ul,#siteNav li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#siteNav .other-section{
+	display:none;
+}
 #siteNav a{display:block;padding:8px 10px 8px 20px;border-width:0 0 1px 0;border-style:solid}
 #siteNav .active{font-weight:bold;text-decoration:underline}
 #siteNav ul ul a{padding-left:35px;font-size:.95em}
@@ -60,9 +110,11 @@ body{padding:0;text-align:center}
 	body #content{background:#FFF}
 	#headerContent{white-space:normal;text-overflow:normal;font-weight:bold}
 }
-/* eXeLearning Style Designer */#content{/*contentBGColor*/background-color:#f9f9f9;}
-/*useNavigationIcons*//*whiteNavigationIcons*/.pagination a span{position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:0;}
-.pagination a,.pagination a:hover,.pagination a:focus{display:block;position:absolute;right:52px;width:32px;height:32px;padding:0;background:url(_style_icons_white.png) no-repeat 0 0;}
+/* eXeLearning Style Designer */#content{border-width:0 /*contentBorderWidth*/5px;/*pageWidth*/width:1330px;/*wrapperShadowColor*/box-shadow:0 0 15px 0 #ffffff;/*contentBGColor*/background-color:#ffffff;}
+#exe-client-search-text{/*searchBarBGColor*/background:#001a47;/*searchBarTextColor*/color:#2a2f33;border-color:#2a2f33;}
+#exe-client-search-submit{/*searchBarButtonBGColor*/background:#2a2f33;border-color:#2a2f33;/*searchBarButtonTextColor*/color:#2a2f33;}
+/*useNavigationIcons*//*defaultNavigationIcons*/.pagination a span{position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:0;}
+.pagination a,.pagination a:hover,.pagination a:focus{display:block;position:absolute;right:52px;width:32px;height:32px;padding:0;background:url(_style_icons.png) no-repeat 0 0;}
 .pagination .next,.pagination .next:hover,.pagination .next:focus{right:0;background-position:-50px 0;}
 .pagination .print-page,.pagination .print-page:hover,.pagination .print-page:focus{right:104px;background-position:-200px 0;}
 #topPagination{width:50%;min-width:400px;}
@@ -70,8 +122,8 @@ body{padding:0;text-align:center}
 #bottomPagination a{top:20px;right:72px;margin:0;}
 #bottomPagination .next{right:20px;}
 #nav-toggler a span{position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:0;}
-#nav-toggler a{display:block;width:32px;height:32px;padding:0;background:url(_style_icons_white.png) no-repeat -100px 0;}
-#nav-toggler a:hover{background:url(_style_icons_white.png) no-repeat -100px 0;}
+#nav-toggler a{display:block;width:32px;height:32px;padding:0;background:url(_style_icons.png) no-repeat -100px 0;}
+#nav-toggler a:hover{background:url(_style_icons.png) no-repeat -100px 0;}
 #nav-toggler .show-nav{background-position:-150px 0;}
 #nav-toggler .show-nav:hover{background-position:-150px 0;}
 .pagination a,#nav-toggler a{filter:alpha(opacity=70);opacity:.7;}
@@ -86,50 +138,20 @@ body{padding:0;text-align:center}
 @media all and (max-width: 400px){.pagination .page-counter{overflow:hidden;clip:rect(0,0,0,0);height:0;}
 }
 body{/*bodyBGColor*/background-color:#001a47;}
-#siteNav,#siteNav a{/*navBGColor*/background-color:#02051c;/*navAColor*/color:#555555;/*navBorderColor*/border-color:#2a2f33;}
-@media screen and (min-width: 701px) and (max-width: 1015px){#siteNav,#siteNav ul{background-color:#02051c;border-color:#2a2f33;}
-#siteNav li{background-color:#02051c;}
+#siteNav,#siteNav a{/*navBGColor*/background-color:#001a47;/*navAColor*/color:#555555;/*navBorderColor*/border-color:#2a2f33;}
+@media screen and (min-width: 701px) and (max-width: 1015px){#siteNav,#siteNav ul{background-color:#001a47;border-color:#2a2f33;}
+#siteNav li{background-color:#001a47;}
 }
-#siteNav a:hover,#siteNav a:focus,#siteNav a.active{/*navHoverBGColor*/background-color:#ffab05;/*navAHoverColor*/color:#ffffff;}
-@media screen and (min-width: 701px) and (max-width: 1015px){#siteNav li:hover,#siteNav li.sfhover{background-color:#ffab05;}
+#siteNav a:hover,#siteNav a:focus,#siteNav a.active{/*navHoverBGColor*/background-color:#ffffff;/*navAHoverColor*/color:#000000;}
+@media screen and (min-width: 701px) and (max-width: 1015px){#siteNav li:hover,#siteNav li.sfhover{background-color:#ffffff;}
 }
-.pagination{border-color:#dddddd;}
-#bottomPagination{background-color:#ffffff;}
+.pagination{border-color:#02051c;}
+#bottomPagination .page-counter{color:#c0c0c0;}
+#bottomPagination{background-color:#02051c;}
+#siteNav{/*navWidth*/width:180px;}
+#main{padding-left:220px;*padding-left:0;}
+@media all and (max-width: 700px) {#siteNav{width:100%;padding:0;}
+#main,.no-nav #main{padding-left:20px;}
+}
+* html #siteNav{width:280px;}
 /* eXeLearning Style Designer (custom CSS) */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-float:rigth;
-
-
-
-
-
-
-
-
-.pagination .print-page{
-display:none;
-}
