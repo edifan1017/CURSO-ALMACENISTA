@@ -311,7 +311,7 @@ a{/*aColor*/color:#ffab05;}
 	/*headerBGColor*/background-color:#02051c;
 	/*headerBGURL*/background-image:url(logo_ppal.png);
 	/*headerBGRepeat*/background-repeat:no-repeat;
-	/*headerBGPosition*/background-position: -9% 50%;
+	/*headerBGPosition*/background-position: -2.5% 50%;
 	border:1px solid /*headerBorderColor*/#c0c0c0;
 }
 #headerContent{
@@ -331,7 +331,7 @@ a{/*aColor*/color:#ffab05;}
 }
 
 
-.boton2{
+.boton1, .boton2{
 background-color:FFFFFF;
 border-radius: 5px;
 position: absolute;
@@ -349,18 +349,29 @@ animation-duration: 2s;
 
 
 
-.boton1{
-background-color:FFFFFF;
-border-radius: 5px;
-position: absolute;
-  top: 436px;
-  left: 100px;
-  width: 185px;
-  height: 55px;
- border-radius: 9px 9px 9px 9px;
--moz-border-radius: 9px 9px 9px 9px;
--webkit-border-radius: 9px 9px 9px 9px;
-font-size:20px;
-animation-name:zoomIn;
+
+.img2{
+	float:right;
+	width: 160px;
+	height: auto;
+	animation-name: backInRight;
+	animation-duration: 2s;
+}
+
+.iDevice emphasis0{
+	background-image: url(images/transparencia.png);
+	position: absolute;
+}
+.img3{
+	width: 650px;
+	height: auto;
+	margin-top: 15px;
+	animation-name: bounceIn;
+	animation-duration: 3s;
+}
+.imgbienvenida{
+	animation-name:fadeIn;
 animation-duration: 2s;
 }
+	
+	
